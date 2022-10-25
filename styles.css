@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* background: rgb(49, 49, 49); */
+  /* border: 1px solid red; */
+  font-family: "Secular One", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 25%;
+  display: grid;
+  place-items: center;
+}
+
+#form-container {
+  display: grid;
+  place-items: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 2px;
+  padding: 25px;
+  border-radius: 0.5rem;
+  background: rgba(105, 105, 105, 0.9);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0);
+}
+input {
+  font-size: 25px;
+  border-radius: 0.35rem;
+  width: 50vw;
+  height: 7vh;
+  box-shadow: 5px 7px 10px -4px rgba(0, 0, 0);
+}
+button {
+  font-size: 25px;
+  border-radius: 0.5rem;
+  margin-top: 10px;
+  width: 30vw;
+  height: 5vh;
+  box-shadow: 5px 7px 10px -4px rgba(0, 0, 0, 0.7);
+}
+
+.header {
+  font-size: 35px;
+  margin-bottom: 25px;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.31);
+}

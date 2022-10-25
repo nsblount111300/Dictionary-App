@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Secular+One&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="form-container">
+      <h1 class="header">Easy Dictionary!</h1>
+      <input type="text" id="word" placeholder="Enter a word" />
+      <button id="myButton" type="button" onclick="onSubmit()">Submit</button>
+    </div>
+    <div class="def-container" id="def-container">
+      <h1 class="word-header" id="word-header"></h1>
+      <p class="definition" id="definition"></p>
+    </div>
+  </body>
+  <script src="dictionary.js"></script>
+</html>
