@@ -1,10 +1,3 @@
-// const options = {
-//   method: "GET",
-//   headers: {
-//     "Content-Type": "application/json",
-//   },
-// };
-
 function onSubmit() {
   const wordInput = document.getElementById("word").value.toLowerCase();
   let input = wordInput.charAt(0).toUpperCase() + wordInput.slice(1);
