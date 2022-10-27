@@ -8,7 +8,9 @@ function onSubmit() {
       response.map((element) => {
         const definition = document.getElementById("definition");
         const paragraph = document.createElement("p");
-        paragraph.textContent = `${input} ${element.definition}`;
+        const wordHead = (document.getElementById("word-header").innerText =
+          input);
+        paragraph.textContent = `${input} - Definition: ${element.definition}`;
         definition.appendChild(paragraph);
       });
     })
