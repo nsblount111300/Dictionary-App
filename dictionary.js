@@ -15,6 +15,7 @@ function onSubmit() {
         paragraph.textContent = `[${index + 1}] ${input} - Definition: ${
           element.definition
         }`;
+
         document.body.style.backgroundImage = `url('https://source.unsplash.com/1920x1080/?${input}')`;
         document.getElementById("def-container").style.display = "grid";
         definition.appendChild(paragraph);
