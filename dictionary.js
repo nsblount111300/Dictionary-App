@@ -13,7 +13,7 @@ function onSubmit() {
         const wordHead = (document.getElementById("word-header").innerText =
           input);
         paragraph.textContent = `[${index + 1}] ${input} - Definition: ${
-          element.definition
+          element.values
         }`;
 
         document.body.style.backgroundImage = `url('https://source.unsplash.com/1920x1080/?${input}')`;
