@@ -5,7 +5,7 @@ function onSubmit() {
   const definition = document.getElementById("definition");
   definition.innerHTML = ``;
   let input = wordInput.charAt(0).toUpperCase() + wordInput.slice(1);
-  fetch(`http://localhost:8080/definitions/${input}`)
+  fetch(`https://localhost:8080/definitions/${input}`)
     .then((response) => response.json())
     .then((response) => {
       console.log(response);
